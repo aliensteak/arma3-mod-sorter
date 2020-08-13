@@ -89,7 +89,7 @@ class UserInterface:
 
     def save_output(self):
         # save to html
-        savefile = filedialog.asksaveasfile(title = "Save modlist", filetypes = (("html files","*.html"),("all files","*.*")))
+        savefile = filedialog.asksaveasfile(title = "Save modlist", filetypes = (("text files","*.txt"),("all files","*.*")))
         with open(savefile.name, 'w') as f:
             for index, each in enumerate(self.unwanted_mods):
                 f.write(f"{index+1} {each}\n")
