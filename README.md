@@ -1,4 +1,5 @@
 # ArmA 3 Mod Sorter
+Helps you clean up all the mods from unused modpacks and keep only the mods you use. Most of the time, same mods exist in multiple modpacks which makes it difficult to remove mods manually. This script applies set operations to filter out all the mods you can unsubscribe.
 
 1. Save all your mod presets which you want to keep. (ArmA 3 Launcer > Mods > Preset > Share)
 3. Export a peset with all the mods. Note: The name of the modsets does not matter. (ArmA 3 Launcher > Mods > More > Export list mods to file > All Mods)
